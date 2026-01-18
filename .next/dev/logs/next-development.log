@@ -1,0 +1,15 @@
+[00:00:25.521] Server  LOG     ✓ Ready in 23.7s
+[00:00:43.124] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:00:43.125] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
+[00:01:05.353] Browser DEBUG   TSS: Counted history being pushed
+[00:01:05.353] Browser DEBUG   TSS: Caught history
+[00:01:05.353] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:01:36.443] Browser DEBUG   TSS: Counted history being pushed
+[00:01:36.443] Browser DEBUG   TSS: Caught history
+[00:01:36.443] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768590070170}
+[00:01:55.887] Browser DEBUG   TSS: Counted history being pushed
+[00:01:55.887] Browser DEBUG   TSS: Caught history
+[00:01:55.887] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768590101261}
+[00:02:22.056] Browser DEBUG   TSS: Counted history being pushed
+[00:02:22.056] Browser DEBUG   TSS: Caught history
+[00:02:22.056] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768590120705}

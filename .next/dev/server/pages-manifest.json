@@ -1,0 +1,9 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/awards": "pages/awards.js",
+  "/initiatives": "pages/initiatives.js",
+  "/media": "pages/media.js"
+}

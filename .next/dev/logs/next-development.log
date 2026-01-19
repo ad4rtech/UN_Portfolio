@@ -1,15 +1,524 @@
-[00:00:25.521] Server  LOG     ✓ Ready in 23.7s
-[00:00:43.124] Browser DEBUG   injection-tss TSS: hosted page injected
-[00:00:43.125] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
-[00:01:05.353] Browser DEBUG   TSS: Counted history being pushed
-[00:01:05.353] Browser DEBUG   TSS: Caught history
-[00:01:05.353] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
-[00:01:36.443] Browser DEBUG   TSS: Counted history being pushed
-[00:01:36.443] Browser DEBUG   TSS: Caught history
-[00:01:36.443] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768590070170}
-[00:01:55.887] Browser DEBUG   TSS: Counted history being pushed
-[00:01:55.887] Browser DEBUG   TSS: Caught history
-[00:01:55.887] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768590101261}
-[00:02:22.056] Browser DEBUG   TSS: Counted history being pushed
-[00:02:22.056] Browser DEBUG   TSS: Caught history
-[00:02:22.056] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768590120705}
+[00:00:03.306] Server  LOG     ✓ Ready in 2.5s
+[00:00:13.854] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:00:13.854] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
+[00:00:21.852] Browser DEBUG   TSS: Counted history being pushed
+[00:00:21.852] Browser DEBUG   TSS: Caught history
+[00:00:21.852] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:00:39.030] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:00:39.030] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
+[00:00:44.992] Browser DEBUG   TSS: Counted history being replaced
+[00:00:44.992] Browser DEBUG   TSS: Caught history
+[00:00:44.992] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:00:48.403] Browser DEBUG   TSS: Counted history being replaced
+[00:00:48.403] Browser DEBUG   TSS: Caught history
+[00:00:48.403] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768793875229}
+[00:01:00.228] Browser DEBUG   TSS: Counted history being replaced
+[00:01:00.228] Browser DEBUG   TSS: Caught history
+[00:01:00.228] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768793878649}
+[00:01:24.302] Browser DEBUG   TSS: Counted history being pushed
+[00:01:24.302] Browser DEBUG   TSS: Caught history
+[00:01:24.302] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768793890474}
+[00:02:40.603] Browser DEBUG   TSS: Counted history being pushed
+[00:02:40.603] Browser DEBUG   TSS: Caught history
+[00:02:40.603] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768793914536}
+[00:08:32.450] Browser DEBUG   TSS: Counted history being pushed
+[00:08:32.450] Browser DEBUG   TSS: Caught history
+[00:08:32.450] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768793990845}
+[00:08:36.563] Browser DEBUG   TSS: Counted history being pushed
+[00:08:36.563] Browser DEBUG   TSS: Caught history
+[00:08:36.563] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794342688}
+[00:08:38.467] Browser DEBUG   TSS: Counted history being pushed
+[00:08:38.467] Browser DEBUG   TSS: Caught history
+[00:08:38.467] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794346785}
+[00:09:53.680] Server  LOG     ✓ Compiled in 581ms
+[00:10:30.547] Server  LOG     ✓ Compiled in 427ms
+[00:10:43.207] Server  LOG     ✓ Compiled in 179ms
+[00:10:45.618] Server  LOG     ✓ Compiled in 688ms
+[00:10:47.733] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:10:47.733] Browser LOG     Refreshing page data due to server-side change
+[00:10:47.733] Browser DEBUG   TSS: Counted history being replaced
+[00:10:47.733] Browser DEBUG   TSS: Caught history
+[00:10:47.733] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794348711}
+[00:10:47.733] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:11:51.740] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:11:51.741] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:01.773] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:01.774] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:02.969] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:02.969] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:03.101] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:03.101] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:12.740] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:12.741] Browser ERROR   ./Desktop/UN Portfolio/pages/index.tsx:203:27
+Parsing ecmascript source code failed
+  201 |                     </div>
+  202 |                 </section>
+> 203 |                 </section>
+      |                           ^
+> 204 |             </main>
+      | ^^^^^^^^^^^^^
+  205 |             
+  206 |             <Footer />
+  207 |         </div >
+
+Expected '</', got 'jsx text (
+            )'
+[00:12:20.908] Server  LOG     ✓ Compiled in 614ms
+[00:12:21.751] Browser LOG     Refreshing page data due to server-side change
+[00:12:21.751] Browser DEBUG   TSS: Counted history being replaced
+[00:12:21.751] Browser DEBUG   TSS: Caught history
+[00:12:21.751] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794475889}
+[00:13:47.638] Browser DEBUG   TSS: Counted history being pushed
+[00:13:47.638] Browser DEBUG   TSS: Caught history
+[00:13:47.638] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768793852085}
+[00:13:58.204] Browser DEBUG   TSS: Counted history being pushed
+[00:13:58.204] Browser DEBUG   TSS: Caught history
+[00:13:58.204] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794657869}
+[00:14:03.655] Browser DEBUG   TSS: Counted history being pushed
+[00:14:03.655] Browser DEBUG   TSS: Caught history
+[00:14:03.655] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794668452}
+[00:14:20.166] Browser DEBUG   TSS: Counted history being pushed
+[00:14:20.166] Browser DEBUG   TSS: Caught history
+[00:14:20.166] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794673894}
+[00:19:47.701] Server  LOG     ✓ Compiled in 531ms
+[00:19:58.388] Server  LOG     ✓ Compiled in 254ms
+[00:20:00.446] Server  LOG     ✓ Compiled in 371ms
+[00:20:02.395] Server  LOG     ✓ Compiled in 321ms
+[00:21:03.701] Server  LOG     ✓ Compiled in 687ms
+[00:22:30.372] Browser DEBUG   TSS: Counted history being pushed
+[00:22:30.372] Browser DEBUG   TSS: Caught history
+[00:22:30.372] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768794690355}
+[00:23:04.204] Browser DEBUG   TSS: Counted history being pushed
+[00:23:04.204] Browser DEBUG   TSS: Caught history
+[00:23:04.204] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795180589}
+[00:23:30.893] Browser DEBUG   TSS: Counted history being replaced
+[00:23:30.893] Browser DEBUG   TSS: Caught history
+[00:23:30.893] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795214436}
+[00:23:32.893] Browser DEBUG   TSS: Counted history being pushed
+[00:23:32.893] Browser DEBUG   TSS: Caught history
+[00:23:32.893] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795241139}
+[00:23:54.456] Browser DEBUG   TSS: Counted history being pushed
+[00:23:54.456] Browser DEBUG   TSS: Caught history
+[00:23:54.456] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795243134}
+[00:24:27.677] Browser DEBUG   TSS: Counted history being pushed
+[00:24:27.677] Browser DEBUG   TSS: Caught history
+[00:24:27.677] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795264700}
+[00:24:42.500] Browser DEBUG   TSS: Counted history being pushed
+[00:24:42.500] Browser DEBUG   TSS: Caught history
+[00:24:42.500] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795297922}
+[00:25:04.775] Browser DEBUG   TSS: Counted history being replaced
+[00:25:04.775] Browser DEBUG   TSS: Caught history
+[00:25:04.775] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795312751}
+[00:25:06.335] Browser DEBUG   TSS: Counted history being pushed
+[00:25:06.335] Browser DEBUG   TSS: Caught history
+[00:25:06.335] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795335021}
+[00:25:17.882] Browser DEBUG   TSS: Counted history being pushed
+[00:25:17.882] Browser DEBUG   TSS: Caught history
+[00:25:17.882] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795336575}
+[00:31:59.889] Server  LOG     ✓ Compiled in 523ms
+[00:32:01.003] Browser ERROR   ./Desktop/UN Portfolio/components/Navbar.tsx:51:18
+Parsing ecmascript source code failed
+  49 |     </div>
+  50 | </div>
+> 51 |                 </div >
+     |                  ^^^^^^
+  52 |             </div >
+  53 |
+  54 |     {/* Mobile Menu */ }
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:24.021] Server  LOG     ✓ Compiled in 1960ms
+[00:32:24.726] Server  LOG     ✓ Compiled in 498ms
+[00:32:24.741] Browser ERROR   ./Desktop/UN Portfolio/components/Navbar.tsx:51:18
+Parsing ecmascript source code failed
+  49 |     </div>
+  50 | </div>
+> 51 |                 </div >
+     |                  ^^^^^^
+  52 |             </div >
+  53 |
+  54 |     {/* Mobile Menu */ }
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:25.811] Browser ERROR   ./Desktop/UN Portfolio/components/Hero.tsx:18:26
+Parsing ecmascript source code failed
+  16 |                     </div>
+  17 |
+> 18 |                     <div className="order-1 md:order-2 flex justify-center md:justify-end relative">
+     |                          ^^^^^^^^^
+  19 |                         <div className="relative w-72 h-72 md:w-[500px] md:h-[500px]">
+  20 |                             {/* Decorative elements */}
+  21 |                             <div className="absolute top-0 right-0 -mr-10 -mt-10 w-full h-full bg-gold-accent/20 rounded-full blur-3xl"></div>
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:25.811] Browser ERROR   ./Desktop/UN Portfolio/components/Navbar.tsx:51:18
+Parsing ecmascript source code failed
+  49 |     </div>
+  50 | </div>
+> 51 |                 </div >
+     |                  ^^^^^^
+  52 |             </div >
+  53 |
+  54 |     {/* Mobile Menu */ }
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:34.732] Browser ERROR   ./Desktop/UN Portfolio/components/Hero.tsx:18:26
+Parsing ecmascript source code failed
+  16 |                     </div>
+  17 |
+> 18 |                     <div className="order-1 md:order-2 flex justify-center md:justify-end relative">
+     |                          ^^^^^^^^^
+  19 |                         <div className="relative w-72 h-72 md:w-[500px] md:h-[500px]">
+  20 |                             {/* Decorative elements */}
+  21 |                             <div className="absolute top-0 right-0 -mr-10 -mt-10 w-full h-full bg-gold-accent/20 rounded-full blur-3xl"></div>
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:34.732] Browser ERROR   ./Desktop/UN Portfolio/components/Navbar.tsx:51:18
+Parsing ecmascript source code failed
+  49 |     </div>
+  50 | </div>
+> 51 |                 </div >
+     |                  ^^^^^^
+  52 |             </div >
+  53 |
+  54 |     {/* Mobile Menu */ }
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:34.732] Browser ERROR   ./Desktop/UN Portfolio/components/Hero.tsx:18:26
+Parsing ecmascript source code failed
+  16 |                     </div>
+  17 |
+> 18 |                     <div className="order-1 md:order-2 flex justify-center md:justify-end relative">
+     |                          ^^^^^^^^^
+  19 |                         <div className="relative w-72 h-72 md:w-[500px] md:h-[500px]">
+  20 |                             {/* Decorative elements */}
+  21 |                             <div className="absolute top-0 right-0 -mr-10 -mt-10 w-full h-full bg-gold-accent/20 rounded-full blur-3xl"></div>
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:34.732] Browser ERROR   ./Desktop/UN Portfolio/components/Navbar.tsx:51:18
+Parsing ecmascript source code failed
+  49 |     </div>
+  50 | </div>
+> 51 |                 </div >
+     |                  ^^^^^^
+  52 |             </div >
+  53 |
+  54 |     {/* Mobile Menu */ }
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:47.746] Browser ERROR   ./Desktop/UN Portfolio/components/Hero.tsx:18:26
+Parsing ecmascript source code failed
+  16 |                     </div>
+  17 |
+> 18 |                     <div className="order-1 md:order-2 flex justify-center md:justify-end relative">
+     |                          ^^^^^^^^^
+  19 |                         <div className="relative w-72 h-72 md:w-[500px] md:h-[500px]">
+  20 |                             {/* Decorative elements */}
+  21 |                             <div className="absolute top-0 right-0 -mr-10 -mt-10 w-full h-full bg-gold-accent/20 rounded-full blur-3xl"></div>
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:32:47.747] Browser ERROR   ./Desktop/UN Portfolio/components/Navbar.tsx:51:18
+Parsing ecmascript source code failed
+  49 |     </div>
+  50 | </div>
+> 51 |                 </div >
+     |                  ^^^^^^
+  52 |             </div >
+  53 |
+  54 |     {/* Mobile Menu */ }
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Navbar.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:33:38.845] Server  LOG     ✓ Compiled in 1821ms
+[00:33:40.240] Server  LOG     ✓ Compiled in 582ms
+[00:33:41.005] Browser ERROR   ./Desktop/UN Portfolio/components/Hero.tsx:18:26
+Parsing ecmascript source code failed
+  16 |                     </div>
+  17 |
+> 18 |                     <div className="order-1 md:order-2 flex justify-center md:justify-end relative">
+     |                          ^^^^^^^^^
+  19 |                         <div className="relative w-72 h-72 md:w-[500px] md:h-[500px]">
+  20 |                             {/* Decorative elements */}
+  21 |                             <div className="absolute top-0 right-0 -mr-10 -mt-10 w-full h-full bg-gold-accent/20 rounded-full blur-3xl"></div>
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Browser:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+
+  SSR:
+    ./Desktop/UN Portfolio/components/Hero.tsx
+    ./Desktop/UN Portfolio/pages/index.tsx
+[00:33:42.878] Browser WARN    Image with src "/assets/portrait-picture.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:33:42.878] Browser WARN    Image with src "/assets/portrait-picture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:33:42.878] Browser WARN    Image with src "/assets/pfp.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:33:42.878] Browser WARN    Image with src "/assets/portrait-picture.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:38:06.122] Browser DEBUG   TSS: Counted history being replaced
+[00:38:06.123] Browser DEBUG   TSS: Caught history
+[00:38:06.123] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768795348103}
+[00:38:06.812] Browser DEBUG   TSS: Counted history being pushed
+[00:38:06.812] Browser DEBUG   TSS: Caught history
+[00:38:06.812] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796116369}
+[00:38:10.758] Browser DEBUG   TSS: Counted history being pushed
+[00:38:10.758] Browser DEBUG   TSS: Caught history
+[00:38:10.758] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1768796116369}
+[00:38:14.568] Browser DEBUG   TSS: Counted history being pushed
+[00:38:14.568] Browser DEBUG   TSS: Caught history
+[00:38:14.568] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796120973}
+[00:38:20.208] Browser DEBUG   TSS: Counted history being replaced
+[00:38:20.208] Browser DEBUG   TSS: Caught history
+[00:38:20.208] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796124783}
+[00:38:21.964] Browser DEBUG   TSS: Counted history being pushed
+[00:38:21.964] Browser DEBUG   TSS: Caught history
+[00:38:21.964] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796130447}
+[00:38:26.061] Browser DEBUG   TSS: Counted history being replaced
+[00:38:26.061] Browser DEBUG   TSS: Caught history
+[00:38:26.061] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796132183}
+[00:38:26.881] Browser DEBUG   TSS: Counted history being pushed
+[00:38:26.881] Browser DEBUG   TSS: Caught history
+[00:38:26.881] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796136310}
+[00:38:30.437] Browser DEBUG   TSS: Counted history being replaced
+[00:38:30.437] Browser DEBUG   TSS: Caught history
+[00:38:30.437] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1768796136310}
+[00:38:33.290] Browser DEBUG   TSS: Counted history being pushed
+[00:38:33.290] Browser DEBUG   TSS: Caught history
+[00:38:33.290] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796140680}
+[00:38:35.919] Browser DEBUG   TSS: Counted history being pushed
+[00:38:35.919] Browser DEBUG   TSS: Caught history
+[00:38:35.919] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1768796143530}

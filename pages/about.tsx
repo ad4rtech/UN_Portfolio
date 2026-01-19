@@ -65,14 +65,24 @@ export default function About() {
                             Biography
                         </h2>
                         <div className="prose prose-lg prose-blue text-gray-600 leading-loose">
-                            <p className="mb-6">
-                                With over three decades of experience in international diplomacy and humanitarian affairs, Hon. Name Lastname has dedicated their life to bridge-building and global cooperation. Born in [City, Country], they developed an early passion for international relations, driven by a belief in the power of dialogue to resolve the world's most pressing challenges.
+                            <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Early Life & Education</h3>
+                            <p className="mb-4">
+                                Zainab Hawa Bangura was born in the small rural town of Yonibana, Tonkolili District, Sierra Leone. The daughter of an imam, she overcame humble beginnings to attend Mathora Girls Secondary School on a scholarship, later graduating from the Annie Walsh Girls Secondary School in Freetown. She holds a bachelor’s degree from Fourah Bay College and advanced diplomas in insurance management from the City University of London and Nottingham University.
                             </p>
-                            <p className="mb-6">
-                                Throughout a distinguished career, they have held pivotal roles within the United Nations and national government, consistently advocating for the most vulnerable. Their tenure as Special Envoy was marked by breakthrough negotiations that paved the way for lasting stability in the region.
+
+                            <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Activism & Civil Society</h3>
+                            <p className="mb-4">
+                                A relentless advocate for conflict resolution and human rights, Ms. Bangura began her activism during Sierra Leone's difficult military junta period. She founded "Women Organized for a Morally Enlightened Nation" (W.O.M.E.N.) and co-founded the "Campaign for Good Governance" (CGG), playing a pivotal role in restoring democratic government to the nation in 1996.
                             </p>
-                            <p>
-                                Today, as Under-Secretary-General, they continue to champion the values of the UN Charter, focusing on sustainable development goals, climate action, and the protection of human rights.
+
+                            <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Public Service</h3>
+                            <p className="mb-4">
+                                Ms. Bangura has served her country with distinction, holding the positions of Minister of Foreign Affairs and International Cooperation (2007-2010)—the second woman to do so—and Minister of Health and Sanitation (2010-2012). Her tenure was marked by a commitment to institutional reform and transparency.
+                            </p>
+
+                            <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">United Nations Career</h3>
+                            <p className="mb-4">
+                                Her international career began with the United Nations Mission in Liberia (UNMIL) as Chief of Civil Affairs, managing the mission's largest civilian component. From 2012 to 2017, she served as the Special Representative of the Secretary-General on Sexual Violence in Conflict, spearheading global protocols to combat sexual violence in war zones. In 2018, she was appointed Director-General of the United Nations Office at Nairobi (UNON).
                             </p>
                         </div>
                     </div>
@@ -84,45 +94,66 @@ export default function About() {
                         <h2 className="font-heading font-bold text-3xl text-gray-900 mb-12 text-center">
                             Career Timeline
                         </h2>
-                        <Timeline items={careerItems} />
+                        <Timeline items={[
+                            {
+                                year: "2018 - Present",
+                                role: "Director-General",
+                                organization: "UNON (Nairobi)",
+                                description: "Leading the United Nations Office at Nairobi, providing executive direction and serving as the Secretary-General's representative in Kenya."
+                            },
+                            {
+                                year: "2012 - 2017",
+                                role: "Special Representative",
+                                organization: "UN (Sexual Violence in Conflict)",
+                                description: "Served as Under-Secretary-General, launching international protocols and negotiating with military leaders to prosecute crimes of sexual violence."
+                            },
+                            {
+                                year: "2010 - 2012",
+                                role: "Minister of Health",
+                                organization: "Government of Sierra Leone",
+                                description: "Oversaw national health strategies and sanitation reforms."
+                            },
+                            {
+                                year: "2007 - 2010",
+                                role: "Minister of Foreign Affairs",
+                                organization: "Government of Sierra Leone",
+                                description: "Managed international relations and cooperation."
+                            },
+                            {
+                                year: "1996 - 2002",
+                                role: "Executive Director / Coordinator",
+                                organization: "Campaign for Good Governance",
+                                description: "Documented human rights violations and promoted peace-building."
+                            }
+                        ]} />
                     </div>
                 </section>
 
-                {/* Education & Credentials */}
+                {/* Recognition */}
                 <section className="py-20 bg-white">
                     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="font-heading font-bold text-3xl text-gray-900 mb-12 text-center">
-                            Education & Credentials
+                            Recognition & Awards
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <Card className="flex items-start space-x-4">
                                 <div className="bg-blue-100 p-3 rounded-full text-un-blue">
-                                    <BookOpen size={24} />
+                                    <Award size={24} />
                                 </div>
                                 <div>
-                                    <h3 className="font-heading font-bold text-xl text-gray-900">PhD in International Relations</h3>
-                                    <p className="text-gray-600">University of Global Studies</p>
-                                    <p className="text-sm text-gray-400 font-mono mt-1">1995</p>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900">Democracy Award</h3>
+                                    <p className="text-gray-600">National Endowment for Democracy (Washington, DC)</p>
+                                    <p className="text-sm text-gray-400 font-mono mt-1">2006</p>
                                 </div>
                             </Card>
                             <Card className="flex items-start space-x-4">
                                 <div className="bg-blue-100 p-3 rounded-full text-un-blue">
-                                    <BookOpen size={24} />
-                                </div>
-                                <div>
-                                    <h3 className="font-heading font-bold text-xl text-gray-900">Master of Public Administration</h3>
-                                    <p className="text-gray-600">School of Government</p>
-                                    <p className="text-sm text-gray-400 font-mono mt-1">1990</p>
-                                </div>
-                            </Card>
-                            <Card className="flex items-start space-x-4">
-                                <div className="bg-gold-accent/20 p-3 rounded-full text-gold-accent">
                                     <Award size={24} />
                                 </div>
                                 <div>
-                                    <h3 className="font-heading font-bold text-xl text-gray-900">Distinguished Service Medal</h3>
-                                    <p className="text-gray-600">Awarded for contributions to peace.</p>
-                                    <p className="text-sm text-gray-400 font-mono mt-1">2015</p>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900">Human Rights Award</h3>
+                                    <p className="text-gray-600">Lawyers Committee for Human Rights (New York)</p>
+                                    <p className="text-sm text-gray-400 font-mono mt-1">2000</p>
                                 </div>
                             </Card>
                             <Card className="flex items-start space-x-4">
@@ -130,58 +161,21 @@ export default function About() {
                                     <Globe size={24} />
                                 </div>
                                 <div>
-                                    <h3 className="font-heading font-bold text-xl text-gray-900">Honorary Doctorate</h3>
-                                    <p className="text-gray-600">Institute of Diplomacy</p>
-                                    <p className="text-sm text-gray-400 font-mono mt-1">2020</p>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900">BBC 100 Women</h3>
+                                    <p className="text-gray-600">Recognized as one of the most influential women globally.</p>
+                                    <p className="text-sm text-gray-400 font-mono mt-1">2013</p>
                                 </div>
                             </Card>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Personal Values */}
-                <section className="py-20 bg-un-blue text-white relative overflow-hidden">
-                    <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-                    <div className="max-w-4xl mx-auto px-4 relative z-10">
-                        <div className="text-center mb-12">
-                            <Heart size={48} className="mx-auto mb-4 text-gold-accent" />
-                            <h2 className="font-heading font-bold text-3xl">Values & Vision</h2>
-                        </div>
-                        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-white/20">
-                            <blockquote className="font-mono text-2xl md:text-3xl leading-relaxed italic text-center text-blue-50">
-                                "Integrity is the currency of diplomacy. Without it, we cannot build trust. Without trust, we cannot build peace."
-                            </blockquote>
-                        </div>
-                        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                            <div>
-                                <h3 className="font-heading font-bold text-xl mb-3 text-gold-accent">Inclusivity</h3>
-                                <p className="text-blue-100">Ensuring every voice is heard, from the village council to the General Assembly.</p>
-                            </div>
-                            <div>
-                                <h3 className="font-heading font-bold text-xl mb-3 text-gold-accent">Sustainability</h3>
-                                <p className="text-blue-100">Meeting the needs of the present without compromising the future.</p>
-                            </div>
-                            <div>
-                                <h3 className="font-heading font-bold text-xl mb-3 text-gold-accent">Accountability</h3>
-                                <p className="text-blue-100">Taking responsibility for our actions and their impact on the global community.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Languages */}
-                <section className="py-20 bg-white">
-                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                        <h2 className="font-heading font-bold text-3xl text-gray-900 mb-12">
-                            Languages & Cultural Engagement
-                        </h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {languages.map((lang, index) => (
-                                <div key={index} className="p-6 bg-gray-50 rounded-xl border border-gray-100 hover:border-un-blue transition-colors group">
-                                    <div className="font-heading font-bold text-xl text-gray-900 group-hover:text-un-blue transition-colors">{lang.language}</div>
-                                    <div className="text-sm font-mono text-gray-500 mt-2">{lang.level}</div>
+                            <Card className="flex items-start space-x-4">
+                                <div className="bg-gold-accent/20 p-3 rounded-full text-gold-accent">
+                                    <Award size={24} />
                                 </div>
-                            ))}
+                                <div>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900">International Award of Merit</h3>
+                                    <p className="text-gray-600">African International Award for Leadership (Nigeria)</p>
+                                    <p className="text-sm text-gray-400 font-mono mt-1">1999</p>
+                                </div>
+                            </Card>
                         </div>
                     </div>
                 </section>

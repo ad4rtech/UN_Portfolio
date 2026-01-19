@@ -17,19 +17,19 @@ interface Role {
 
 const roles: Role[] = [
     {
-        role: "Director General",
+        role: "Director-General, UNON",
         years: "2018 - Present",
         focusArea: "Strategic Leadership & Operations"
     },
     {
-        role: "Special Envoy",
-        years: "2012 - 2018",
-        focusArea: "Conflict Resolution & Diplomacy"
+        role: "Special Representative",
+        years: "2012 - 2017",
+        focusArea: "Sexual Violence in Conflict"
     },
     {
-        role: "Head of Mission",
-        years: "2005 - 2012",
-        focusArea: "Humanitarian Aid Coordination"
+        role: "Minister of Foreign Affairs",
+        years: "2007 - 2010",
+        focusArea: "International Cooperation"
     }
 ]
 
@@ -37,8 +37,8 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-gray-50 font-sans selection:bg-un-blue selection:text-white">
             <Head>
-                <title>Hon. Name Lastname | United Nations Portfolio</title>
-                <meta name="description" content="Official portfolio of Hon. Name Lastname, Under-Secretary-General at the United Nations." />
+                <title>Hon. Zainab Hawa Bangura | United Nations Portfolio</title>
+                <meta name="description" content="Official portfolio of Hon. Zainab Hawa Bangura, Director-General of the United Nations Office at Nairobi." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -201,6 +201,8 @@ export default function Home() {
                     </div>
                 </section>
             </main>
+
+            <Footer />
         </div>
     )
 }

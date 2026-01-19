@@ -78,72 +78,78 @@ export default function Leadership() {
                     compact={true}
                 />
 
-                {/* Current Role Responsibilities */}
+                {/* Current Mandate */}
                 <section className="py-20 bg-white">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex flex-col md:flex-row gap-12 items-start">
                             <div className="md:w-1/3">
-                                <h2 className="font-heading font-bold text-3xl text-gray-900 mb-6">Current Mandate</h2>
+                                <h2 className="font-heading font-bold text-3xl text-gray-900 mb-6">UNON Mandate</h2>
                                 <div className="h-1 w-20 bg-un-blue rounded-full mb-6"></div>
+                                <p className="text-gray-600 leading-relaxed mb-4">
+                                    The Director-General is responsible for all activities of the United Nations Office at Nairobi. As the representative of the Secretary-General, she provides advice on political, diplomatic, and cross-cutting issues in the region.
+                                </p>
                                 <p className="text-gray-600 leading-relaxed">
-                                    As Under-Secretary-General, the primary mandate involves overseeing the strategic direction of the Office, coordinating with 193 member states, and ensuring the effective delivery of the UN's core pillars: Peace, Development, and Human Rights.
+                                    She serves as the main interlocutor with Kenyan authorities and provides executive direction to administration, conference services, and security programmes.
                                 </p>
                             </div>
                             <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <Card className="bg-blue-50 border-none shadow-none">
                                     <Scale size={32} className="text-un-blue mb-4" />
-                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Strategic Oversight</h3>
-                                    <p className="text-sm text-gray-600">Directing policy formulation and operational planning for global missions.</p>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Representation</h3>
+                                    <p className="text-sm text-gray-600">Representing the Secretary-General in relations with permanent missions and regional organizations.</p>
                                 </Card>
                                 <Card className="bg-blue-50 border-none shadow-none">
                                     <Handshake size={32} className="text-un-blue mb-4" />
-                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Diplomatic Liaison</h3>
-                                    <p className="text-sm text-gray-600">Managing high-level relations with Heads of State and Government.</p>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Diplomatic Advice</h3>
+                                    <p className="text-sm text-gray-600">Providing support on a broad range of political and diplomatic issues in the region.</p>
                                 </Card>
                                 <Card className="bg-blue-50 border-none shadow-none">
                                     <Users size={32} className="text-un-blue mb-4" />
-                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Resource Mobilization</h3>
-                                    <p className="text-sm text-gray-600">Securing funding and political support for critical initiatives.</p>
+                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Executive Direction</h3>
+                                    <p className="text-sm text-gray-600">Managing administration, conference services, security, and public information activities.</p>
                                 </Card>
                                 <Card className="bg-blue-50 border-none shadow-none">
-                                    <Globe size={32} className="text-un-blue mb-4" />
-                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Crisis Response</h3>
-                                    <p className="text-sm text-gray-600">Leading rapid response coordination for emerging global emergencies.</p>
+                                    <Gavel size={32} className="text-un-blue mb-4" />
+                                    <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Security Designated Official</h3>
+                                    <p className="text-sm text-gray-600">Serving as the Designated Official for the security and safety of the UN system in Kenya.</p>
                                 </Card>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                {/* Strategic Priorities */}
+                {/* Gender Parity Strategy */}
                 <section className="py-24 bg-gray-50">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-16">
-                            <h2 className="font-heading font-bold text-3xl text-gray-900 mb-4">Strategic Priorities</h2>
-                            <p className="text-gray-600 max-w-2xl mx-auto">Focusing on high-impact areas to drive systemic change and achieve the Sustainable Development Goals.</p>
+                            <h2 className="font-heading font-bold text-3xl text-gray-900 mb-4">Gender Parity Strategy</h2>
+                            <p className="text-gray-600 max-w-2xl mx-auto">
+                                The UN-wide Strategy on Gender Parity seeks a fair balance between individual accountability and incentives, fostering a gender-neutral and inclusive workplace.
+                            </p>
                         </div>
 
-                        <Accordion items={priorities} />
-                    </div>
-                </section>
-
-                {/* Governance & Policy Influence */}
-                <section className="py-24 bg-white">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="font-heading font-bold text-3xl text-gray-900 mb-12">Governance & Policy Influence</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {policies.map((policy, index) => (
-                                <Card key={index} className="hover:shadow-md transition-shadow">
-                                    <div className="mb-4">{policy.icon}</div>
-                                    <h3 className="font-heading font-bold text-lg text-gray-900 mb-3 min-h-[56px] flex items-center">
-                                        {policy.title}
-                                    </h3>
-                                    <p className="text-gray-600 text-sm leading-relaxed">
-                                        {policy.description}
-                                    </p>
-                                </Card>
-                            ))}
-                        </div>
+                        <Accordion items={[
+                            {
+                                title: "Leadership & Accountability",
+                                content: "Setting targets and monitoring progress at the highest levels of senior management to ensure commitment to gender parity goals."
+                            },
+                            {
+                                title: "Recruitment & Retention",
+                                content: "Implementing unbiased recruitment processes and creating retention strategies that support long-term career growth for women."
+                            },
+                            {
+                                title: "Enabling Environment",
+                                content: "Creating an inclusive culture that empowers staff and managers, recognizing different starting points and challenges."
+                            },
+                            {
+                                title: "Mission Settings",
+                                content: "Addressing the unique challenges of gender parity in field missions and volatile environments."
+                            },
+                            {
+                                title: "Cultural Change",
+                                content: "Moving beyond quantitative goals to change the institutional culture, ensuring the Organization can fully deliver on its promises."
+                            }
+                        ]} />
                     </div>
                 </section>
 

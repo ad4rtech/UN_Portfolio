@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface HeroProps {
     title?: string
@@ -30,10 +31,10 @@ const Hero = ({ title, subtitle, compact = false }: HeroProps) => {
                     <div className="order-2 md:order-1 space-y-8">
                         <div className="space-y-4">
                             <h1 className="font-heading font-bold text-5xl md:text-7xl text-gray-900 leading-[1.1] tracking-tight">
-                                Hon. <span className="text-un-blue block">Name Lastname</span>
+                                Hon. <span className="text-un-blue block">Zainab Bangura</span>
                             </h1>
                             <p className="font-mono text-gray-500 text-lg uppercase tracking-widest border-l-4 border-gold-accent pl-4">
-                                Under-Secretary-General | United Nations
+                                Director-General | UNON
                             </p>
                         </div>
 
@@ -59,18 +60,13 @@ const Hero = ({ title, subtitle, compact = false }: HeroProps) => {
 
                             {/* Image Placeholder */}
                             <div className="relative w-full h-full rounded-full overflow-hidden border-8 border-white shadow-2xl bg-gray-200 flex items-center justify-center group">
-                                <span className="text-gray-400 font-medium group-hover:text-gray-500 transition-colors">
-                                    High-Res Portrait
-                                </span>
-                                {/* 
-                  <Image
-                    src="/portrait.jpg"
-                    alt="Hon. Name Lastname"
-                    layout="fill"
-                    objectFit="cover"
-                    priority
-                  />
-                 */}
+                                <Image
+                                    src="/assets/portrait-picture.jpg"
+                                    alt="Hon. Zainab Bangura"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    priority
+                                />
                             </div>
 
                             {/* Floating Badge */}
